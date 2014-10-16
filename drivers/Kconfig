@@ -182,4 +182,6 @@ source "drivers/gator/Kconfig"
 
 source "drivers/gpu/mali400/Kconfig"
 
+source "drivers/android/Kconfig"
+
 endmenu
