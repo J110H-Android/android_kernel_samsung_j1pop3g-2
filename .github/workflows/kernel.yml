@@ -19,7 +19,7 @@ jobs:
     - name: Building Kernel
       run: |
         make -j2 cyanogenmod_j1pop3g_defconfig
-        make -j2
+        make -j4
 
     - name: Moving Output # CI only
       run: |
