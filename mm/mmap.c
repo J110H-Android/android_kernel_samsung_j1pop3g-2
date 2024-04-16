@@ -58,9 +58,6 @@
 #ifndef arch_rebalance_pgtables
 #define arch_rebalance_pgtables(addr, len)		(addr)
 #endif
-#ifdef CONFIG_PROC_FS
-static unsigned int total_no_of_find_vma = 0;
-static unsigned int vma_cache_found = 0;
 
 #ifdef CONFIG_HAVE_ARCH_MMAP_RND_BITS
 const int mmap_rnd_bits_min = CONFIG_ARCH_MMAP_RND_BITS_MIN;
